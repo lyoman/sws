@@ -1,0 +1,6 @@
+{
+	"appId": "org.cnrgzim.eyewitness",
+	"appName": "EyeWitness",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

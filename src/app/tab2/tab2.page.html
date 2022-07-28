@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+          <ion-menu-button autoHide="false"></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="title" style="margin-right: 50px;" class="ion-text-center">
+          Help
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>How to use the application</h1><br><hr>
+
+  <p>
+    The application is for reporting incidents that would have occured. Click on the report button and it will take you straight to a page were you fill in all the information that you have about the incident that you want to report.
+  </p>
+
+  <p style="margin-top: 2%">
+    <a [routerLink]="['/contactus']">Contact us</a> if you have any query or any challenges. 
+  </p>
+</ion-content>

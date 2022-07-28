@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button color="light" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title style="margin-right:50px;" class="title" class="ion-text-center">
+      EyeWitness | Reporting Application
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding animated fadeIn login auth-page">
+  <div class="login-content">
+    <div padding-horizontal class="ion-text-center" class="animated fadeInDown" style="padding-top: 5%;">
+      <div class="ion-text-center">
+        <img class="img img-rounded" src="assets/imgs/CNRG-Final-logo.png"
+          style="height: auto;width: 250px;border-radius: 5%;">
+      </div>
+
+      <h1 style="text-align: center;">Centre for Natural Resource Governance</h1>
+    </div>
+    <hr>
+
+    <h2 style="font-weight: bolder;font-size: larger;">EyeWitness mobile application.</h2>
+
+    <p>
+      This app will assist you to report incidences or cases of human rights abuses that you observe in your community.
+      These cases or incidences should be related to extractive activities occurring in your area.
+    </p>
+
+    <p>
+      The information that you provide will assist CNRG and your community to advocate for justice for those affected.
+      CNRG will treat this information with utmost confidentiality; without disclosing your name(s). It should take you
+      2
+      minutes to complete the report.
+    </p>
+
+    <p style="margin-top: 3%;margin-left: auto;margin-right: auto;text-align: center;">
+      <small style="font-size: large;font-family: Arial, Helvetica, sans-serif;font-weight: bold;">Thank you</small>.
+    </p>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="light">
+    <form class="list-form">
+      <ion-fab-button [routerLink]="['/report-incident']">Report</ion-fab-button>
+    </form>
+  </ion-toolbar>
+</ion-footer>

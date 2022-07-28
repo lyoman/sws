@@ -1,0 +1,7 @@
+{
+  "name": "EyeWitness",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
